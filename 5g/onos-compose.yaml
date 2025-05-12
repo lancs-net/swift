@@ -1,0 +1,15 @@
+services:
+  onos:
+      container_name: onos1
+      image: onosproject/onos:latest
+      restart: always
+      ports:
+        - 8181:8181
+        - 8101:8101
+        - 6653:6653
+        - 6633:6633
+        - 6640:6640
+        - 9876:9876
+      hostname: onos1
+      environment:
+        - ONOS_APPS=fwd,openflow,gui2,imr
