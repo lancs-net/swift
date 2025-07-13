@@ -37,13 +37,13 @@
 
 test_network :-
 	load_network,
-	%rdf_load('../ontologies/examples/infrastructure/21CN.ttl', [format(turtle), graph('live_network'), multifile(true)]) ,
-	%rdf_load('../ontologies/examples/infrastructure/bt.ttl', [format(turtle), graph('live_network'), multifile(true)]) ,
-	%rdf_load('../ontologies/examples/infrastructure/bt-full-example.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
-	%rdf_load('../ontologies/examples/infrastructure/bt-full-ext.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
-	%rdf_load('../ontologies/examples/infrastructure/new-bt.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
-	rdf_load('../ontologies/examples/infrastructure/bt-uk-full.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
-	%rdf_load('../ontologies/examples/5g/free5gc.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
+	%rdf_load('ontologies/examples/infrastructure/21CN.ttl', [format(turtle), graph('live_network'), multifile(true)]) ,
+	%rdf_load('ontologies/examples/infrastructure/bt.ttl', [format(turtle), graph('live_network'), multifile(true)]) ,
+	%rdf_load('ontologies/examples/infrastructure/bt-full-example.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
+	%rdf_load('ontologies/examples/infrastructure/bt-full-ext.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
+	%rdf_load('ontologies/examples/infrastructure/new-bt.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
+	rdf_load('ontologies/examples/bt-uk-full.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
+	%rdf_load('ontologies/examples/5g/free5gc.ttl', [format(turtle), graph('live_network'), multifile(true)]) .
 
 output_file :-
 	rdf_save_turtle('./prolog/proc_network.ttl', [only_known_prefixes(true), a(true)]).
@@ -54,8 +54,8 @@ load_network :-
 	rdf_create_graph('live_network'),
 	rdf_create_graph('inferred_network'),
 	rdf_create_graph('prospect_network'),
-	%rdf_load('../ontologies/services/free5gc.ttl', [format(turtle), graph('service'), register_namespaces(true)]),
-	rdf_load('../ontologies/network/network.ttl', [format(turtle), graph('network_model'), register_namespaces(true)]).
+	%rdf_load('ontologies/services/free5gc.ttl', [format(turtle), graph('service'), register_namespaces(true)]),
+	rdf_load('ontologies/network.ttl', [format(turtle), graph('network_model'), register_namespaces(true)]).
 
 clear_network :-
 	rdf_retractall(_, _, _).

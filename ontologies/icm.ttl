@@ -1,0 +1,274 @@
+@prefix : <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://www.w3.org/2002/07/owl> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#atLeast
+:atLeast rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Expectation ;
+         rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#atMost
+:atMost rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Expectation ;
+        rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#event
+:event rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#exactly
+:exactly rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Expectation ;
+         rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#greater
+:greater rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Expectation ;
+         rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#hasExpectation
+:hasExpectation rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :RequirementDefiner ;
+                rdfs:range :Expectation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#hasParameter
+:hasParameter rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Expectation ;
+              rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#hasTarget
+:hasTarget rdf:type owl:ObjectProperty ;
+           rdfs:domain :Expectation ;
+           rdfs:range :Target .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#hasTargetDescription
+:hasTargetDescription rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#metric
+:metric rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#receiver
+:receiver rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#smaller
+:smaller rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Expectation ;
+         rdfs:range :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#targetDescription
+:targetDescription rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#targetResource
+:targetResource rdf:type owl:ObjectProperty ;
+                rdfs:domain :Target ;
+                rdfs:range rdfs:Resource .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#targetType
+:targetType rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#value
+:value rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#valueBy
+:valueBy rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ComplianceDetail
+:ComplianceDetail rdf:type owl:Class ;
+                  rdfs:subClassOf :RequirementDefiner .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ComplianceQualifier
+:ComplianceQualifier rdf:type owl:Class ;
+                     rdfs:subClassOf :RequirementDefiner .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Context
+:Context rdf:type owl:Class ;
+         rdfs:subClassOf :RequirementExplainer .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#DeliveryExpectation
+:DeliveryExpectation rdf:type owl:Class ;
+                     rdfs:subClassOf :Expectation ;
+                     owl:disjointWith :PropertyExpectation ,
+                                      :ReportingExpectation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#DeliveryParameter
+:DeliveryParameter rdf:type owl:Class ;
+                   rdfs:subClassOf :Parameter ;
+                   owl:disjointWith :PropertyParameter ,
+                                    :ReportingParameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Element
+:Element rdf:type owl:Class ;
+         rdfs:subClassOf owl:Class .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Expectation
+:Expectation rdf:type owl:Class ;
+             rdfs:subClassOf :RequirementDefiner .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ExpectationReport
+:ExpectationReport rdf:type owl:Class ;
+                   rdfs:subClassOf :RequirementReporter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Information
+:Information rdf:type owl:Class ;
+             rdfs:subClassOf :InformationElement .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#InformationElement
+:InformationElement rdf:type owl:Class ;
+                    rdfs:subClassOf :Element ;
+                    owl:disjointWith :RequirementElement .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#IntentInformation
+:IntentInformation rdf:type owl:Class ;
+                   rdfs:subClassOf :IntentManagementInformation ;
+                   owl:disjointWith :ReportInformation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#IntentManagementInformation
+:IntentManagementInformation rdf:type owl:Class ;
+                             rdfs:subClassOf :Information .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Parameter
+:Parameter rdf:type owl:Class ;
+           rdfs:subClassOf owl:Class .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ParameterCollection
+:ParameterCollection rdf:type owl:Class ;
+                     rdfs:subClassOf :RequirementDefiner .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#PropertyExpectation
+:PropertyExpectation rdf:type owl:Class ;
+                     rdfs:subClassOf :Expectation ;
+                     owl:disjointWith :ReportingExpectation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#PropertyParameter
+:PropertyParameter rdf:type owl:Class ;
+                   rdfs:subClassOf :Parameter ;
+                   owl:disjointWith :ReportingParameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ReportInformation
+:ReportInformation rdf:type owl:Class ;
+                   rdfs:subClassOf :IntentManagementInformation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ReportingExpectation
+:ReportingExpectation rdf:type owl:Class ;
+                      rdfs:subClassOf :Expectation .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ReportingParameter
+:ReportingParameter rdf:type owl:Class ;
+                    rdfs:subClassOf :Parameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#ReportingTimeContext
+:ReportingTimeContext rdf:type owl:Class ;
+                      rdfs:subClassOf :Context ;
+                      owl:disjointWith :UnitContext .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#RequirementDefiner
+:RequirementDefiner rdf:type owl:Class ;
+                    rdfs:subClassOf :RequirementElement ;
+                    owl:disjointWith :RequirementExplainer ,
+                                     :RequirementReporter ,
+                                     :Target .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#RequirementElement
+:RequirementElement rdf:type owl:Class ;
+                    rdfs:subClassOf :Element .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#RequirementExplainer
+:RequirementExplainer rdf:type owl:Class ;
+                      rdfs:subClassOf :RequirementElement ;
+                      owl:disjointWith :RequirementReporter ,
+                                       :Target .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#RequirementReporter
+:RequirementReporter rdf:type owl:Class ;
+                     rdfs:subClassOf :RequirementElement ;
+                     owl:disjointWith :Target .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#Target
+:Target rdf:type owl:Class ;
+        rdfs:subClassOf :RequirementElement .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/icm#UnitContext
+:UnitContext rdf:type owl:Class ;
+             rdfs:subClassOf :Context .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

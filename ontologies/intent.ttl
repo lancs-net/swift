@@ -1,0 +1,293 @@
+@prefix : <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#> .
+@prefix nm: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent> rdf:type owl:Ontology ;
+                                                                                                 owl:imports <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service> ,
+                                                                                                             <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+:Replicator rdf:type owl:Class ;
+	rdfs:subClassOf owl:Class .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#DeploymentUnitSpecification
+:DeploymentUnitSpecification rdf:type owl:Class ;
+                             rdfs:subClassOf :VirtualDeviceSpecification .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#DeviceSpecification
+:DeviceSpecification rdf:type owl:Class ;
+                     rdfs:subClassOf owl:Class .
+
+
+:FunctionSpecification rdf:type owl:Class ;
+                            rdfs:subClassOf :Specification .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#FunctionChainSpecification
+:FunctionChainSpecification rdf:type owl:Class ;
+                            rdfs:subClassOf :Specification .
+
+:HostSpecification rdf:type owl:Class ;
+				   rdfs:subClassOf :Specification .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#ServiceSpecification
+:ServiceSpecification rdf:type owl:Class ;
+                      rdfs:subClassOf :Specification .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#Specification
+:Specification rdf:type owl:Class ;
+               rdfs:subClassOf owl:Class .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#VirtualDeviceSpecification
+:VirtualDeviceSpecification rdf:type owl:Class ;
+                            rdfs:subClassOf :DeviceSpecification .
+
+:VirtualMachineSpecification rdf:type owl:Class ;
+                            rdfs:subClassOf :VirtualDeviceSpecification .
+
+:ContainerSpecification rdf:type owl:Class ;
+                            rdfs:subClassOf :VirtualDeviceSpecification .
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#connects
+:connects rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :intentProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#connectsToDeploymentUnit
+:connectsToDeploymentUnit rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :connects .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#connectsToNetwork
+:connectsToNetwork rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :connects ;
+                   rdfs:range nm:Network .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#defines
+:defines rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :intentProperty .
+
+:definesUnique rdf:type owl:ObjectProperty ;
+		rdfs:subPropertyOf :intentProperty .
+
+:definesShared rdf:type owl:ObjectProperty ;
+		rdfs:subPropertyOf :intentProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#definesDeploymentUnit
+:definesDeploymentUnit rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :defines ;
+                       rdfs:range nm:DeploymentUnit .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#definesFunction
+:definesFunction rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :defines ;
+                 rdfs:range nm:Function .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#definesHost
+:definesHost rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :defines ;
+             rdfs:domain :Intent ;
+             rdfs:range nm:Host .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#definesNetwork
+:definesNetwork rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :defines ;
+                rdfs:domain :Intent ;
+                rdfs:range nm:Network .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#definesService
+:definesService rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :defines ;
+                rdfs:domain :Intent ;
+                rdfs:range nm:Service .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#executesIn
+:executesIn rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :intentProperty ;
+            rdfs:range nm:ExecutionEnvironment .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#executesOn
+:executesOn rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :intentProperty ;
+            rdfs:domain owl:Class .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#intentProperty
+:intentProperty rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#maxReplication
+:maxReplication rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :requires .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minReplication
+:minReplication rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :requires .
+
+:defaultReplication rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :requires .
+
+:replicates rdf:type owl:ObjectProperty ;
+	rdfs:subPropertyOf owl:topObjectProperty .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#replication
+:replication rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :requires .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiredBy
+:requiredBy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :requires .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requires
+:requires rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :intentProperty ,
+                             owl:topObjectProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiresDeploymentUnit
+:requiresDeploymentUnit rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :requires ;
+                        rdfs:range :DeploymentUnitSpecification .
+
+:requiresVirtualDevice rdf:type owl:ObjectProperty ;
+						rdfs:subPropertyOf :requires ;
+						rdfs:range :VirtualDeviceSpecification .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiresFunction
+:requiresFunction rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :requires ;
+                  rdfs:range :FunctionSpecification .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiresFunctionChain
+:requiresFunctionChain rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :requires ;
+                       rdfs:range :FunctionChainSpecification .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiresHost
+:requiresHost rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :requires ;
+              rdfs:range :HostSpecification .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#requiresNetwork
+:requiresNetwork rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :requires .
+
+:requiresRole rdf:type owl:ObjectProperty ;
+			  rdfs:subPropertyOf :requires .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#containerParameter
+:containerParameter rdf:type owl:DatatypeProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#flavorParameter
+:flavorParameter rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#maxReplication
+:maxReplication rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:unsignedInt .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minCPURequirement
+:minCPURequirement rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :flavorParameter ;
+                   rdfs:domain nm:VirtualMachine ;
+                   rdfs:range xsd:unsignedInt .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minInstanceNumber
+:minInstanceNumber rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :virtualDeviceParameter ;
+                   rdfs:domain nm:VirtualDevice ;
+                   rdfs:range xsd:unsignedInt .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minMemoryRequirement
+:minMemoryRequirement rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :flavorParameter ;
+                      rdfs:domain nm:VirtualMachine ;
+                      rdfs:range xsd:double .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minReplication
+:minReplication rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:unsignedInt .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#minStorageRequirement
+:minStorageRequirement rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :flavorParameter ;
+                       rdfs:domain nm:VirtualMachine ;
+						rdfs:range xsd:double .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#networkModeRequirement
+:networkModeRequirement rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :containerParameter .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#replication
+:replication rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:unsignedInt .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#virtualDeviceParameter
+:virtualDeviceParameter rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#volumeRequirement
+:volumeRequirement rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :containerParameter .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#Intent
+:Intent rdf:type owl:Class ;
+	rdfs:subClassOf owl:Class .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#Variable
+:Variable rdf:type owl:Class ;
+	rdfs:subClassOf owl:Class .
+
+:VariableSpecification rdf:type owl:Class ;
+	rdfs:subClassOf owl:Class .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#blankType
+:BlankType rdf:type owl:Class ;
+	rdfs:subClassOf owl:Class .

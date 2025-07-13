@@ -1,0 +1,233 @@
+@prefix : <http://raw.githubusercontent.com/Guilvareux/ontologies/main/services/free5gc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix im: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#> .
+@prefix nm: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://raw.githubusercontent.com/Guilvareux/ontologies/main/services/free5gc#> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/services/free5gc> rdf:type owl:Ontology ;
+                                                                                            owl:imports <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent> ,
+                                                                                                        <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network> .
+
+#################################################################
+#    Individuals
+#################################################################
+_:targetHostPCF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostUDM rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostUDR rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostNSSF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostSMF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostNRF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostAUSF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostCHF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostAMF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostN3IWF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostN3IWUE rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+
+_:targetHostUPF rdf:type im:VariableSpecification ;
+	im:defines nm:Host .
+	# Can add extra information here.
+	# Either a specific host, or simply requirements
+	# for the host to meet.
+	# model allows for granular specification
+	# in addition to supporting high-level.
+
+_:targetNetwork rdf:type im:VariableSpecification ;
+	im:defines nm:NetworkSlice ;
+	nm:bandwidth "100000000"^^xsd:double.
+
+#_:replicatorOne rdf:type im:Replicator ;
+#	im:replicates :wodanSBE_VDU .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:pcf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :pcf_VDU ;
+			im:requiresRole nm:PolicyControlFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:pcf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostPCF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:udm rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :udm_VDU ;
+			im:requiresRole nm:UnifiedDataManagementFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:udm_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostUDM ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:udr rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :udr_VDU ;
+			im:requiresRole nm:UnifiedDataRepositoryFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:udr_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostUDR ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:nrf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :nrf_VDU ;
+			im:requiresRole nm:NetworkRepositoryFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:nrf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostNRF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:n3iwf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :n3iwf_VDU ;
+			im:requiresRole nm:InterWorkingFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:n3iwf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostN3IWF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:nssf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :nssf_VDU ;
+			im:requiresRole nm:NetworkSliceSelectionFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:nssf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostNSSF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:smf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :smf_VDU ;
+			im:requiresRole nm:SessionManagementFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:smf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostSMF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:amf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :amf_VDU ;
+			im:requiresRole nm:AccessMobilityManagementFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:amf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostAMF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:chf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :chf_VDU ;
+			im:requiresRole nm:ChargingFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:chf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostCHF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:ausf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :ausf_VDU ;
+			im:requiresRole nm:AuthenticationServerFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:ausf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostAUSF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB
+:upf rdf:type owl:NamedIndividual , im:FunctionSpecification ;
+			  im:requiresDeploymentUnit :upf_VDU ;
+			im:requiresRole nm:UserPlaneFunction .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#wodanVLB_VDU
+:upf_VDU rdf:type owl:NamedIndividual , im:VirtualMachineSpecification ;
+		 im:requiresHost _:targetHostUPF ;
+         im:minCPURequirement 1 ;
+         im:minMemoryRequirement "1000000000"^^xsd:double ;
+         im:minStorageRequirement "10000000000"^^xsd:double ;
+         im:connectsToNetwork _:targetNetwork .
+
+
+:CoreFunctionChain rdf:type owl:NamedIndividual ,
+					im:FunctionChainSpecification ;
+					im:requiresFunction :upf, :nssf, :n3iwf, :n3iwue, :pcf, :udr, :udm, :chf, :ausf, :nrf, :amf, :smf ;
+					im:minReplication 1 ;
+					im:replication 1 .
+
+
+:CoreService rdf:type owl:NamedIndividual ,
+                    im:ServiceSpecification ;
+					im:requiresFunctionChain :CoreFunctionChain .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,261 @@
+@prefix : <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nm: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#> .
+@prefix service: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/service#> .
+@base <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN> rdf:type owl:Ontology .
+
+:core1 rdf:type nm:CoreSwitch ;
+	rdfs:label "core1" ;
+	rdfs:comment "Core" .
+
+:core2 rdf:type nm:CoreSwitch ;
+	rdfs:label "core2" ;
+	rdfs:comment "Core" .
+:edge1 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "edge1" ;
+	rdfs:comment "Core" .
+
+:edge2 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "edge2" ;
+	rdfs:comment "Core" .
+
+:s1 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s1" ;
+	rdfs:comment "Access" .
+
+:s2 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s2" ;
+	rdfs:comment "Access" .
+
+:s3 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s3" ;
+	rdfs:comment "Access" .
+
+:s4 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s4" ;
+	rdfs:comment "Access" .
+
+:s5 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s5" ;
+	rdfs:comment "Access" .
+
+:s6 rdf:type nm:PhysicalSwitch ;
+	rdfs:label "s6" ;
+	rdfs:comment "Access" .
+
+:s7 rdf:type nm:MetroSwitch ;
+	rdfs:label "s7" ;
+	rdfs:comment "Metro" .
+
+:s8 rdf:type nm:MetroSwitch ;
+	rdfs:label "s8" ;
+	rdfs:comment "Metro" .
+
+:s9 rdf:type nm:MetroSwitch ;
+	rdfs:label "s9" ;
+	rdfs:comment "Metro" .
+
+:s10 rdf:type nm:MetroSwitch ;
+	rdfs:label "s10" ;
+	rdfs:comment "Metro" .
+
+:s11 rdf:type nm:MetroSwitch ;
+	rdfs:label "s11" ;
+	rdfs:comment "Metro" .
+
+:s12 rdf:type nm:MetroSwitch ;
+	rdfs:label "s12" ;
+	rdfs:comment "Metro" .
+
+:s13 rdf:type nm:MetroSwitch ;
+	rdfs:label "s13" ;
+	rdfs:comment "Metro" .
+
+:s14 rdf:type nm:MetroSwitch ;
+	rdfs:label "s14" ;
+	rdfs:comment "Metro" .
+
+:s14_s11 rdf:type nm:Wire ;
+	nm:physicalLink :s11 .
+
+
+:core1_edge1 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core1 ;
+	nm:physicalLink :edge1 .
+:core1_edge2 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core1 ;
+	nm:physicalLink :edge2 .
+:core1_s12 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core1 ;
+	nm:physicalLink :s12 .
+:core1_s13 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core1 ;
+	nm:physicalLink :s13 .
+:core1_s14 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core1 ;
+	nm:physicalLink :s14 .
+
+:core2_edge1 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core2 ;
+	nm:physicalLink :edge1 .
+:core2_edge2 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core2 ;
+	nm:physicalLink :edge2 .
+:core2_s12 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core2 ;
+	nm:physicalLink :s12 .
+:core2_s13 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core2 ;
+	nm:physicalLink :s13 .
+:core2_s14 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :core2 ;
+	nm:physicalLink :s14 .
+
+:s12_s13 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s13 .
+:s12_s14 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s14 .
+:s12_s7 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s7 .
+:s12_s8 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s8 .
+:s12_s9 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s9 .
+:s12_s10 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s10 .
+
+:s13_s14 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s13 ;
+	nm:physicalLink :s14 .
+:s13_s9 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s9 .
+:s13_s10 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s10 .
+:s13_s11 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s12 ;
+	nm:physicalLink :s11 .
+
+:s7_s1 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s7 ;
+	nm:physicalLink :s1 .
+:s7_s2 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s7 ;
+	nm:physicalLink :s2 .
+
+:s8_s1 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s8 ;
+	nm:physicalLink :s1 .
+:s8_s2 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s8 ;
+	nm:physicalLink :s2 .
+
+:s9_s2 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s9 ;
+	nm:physicalLink :s2 .
+:s9_s3 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s9 ;
+	nm:physicalLink :s3 .
+:s9_s4 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s9 ;
+	nm:physicalLink :s4 .
+
+:s10_s3 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s10 ;
+	nm:physicalLink :s3 .
+:s10_s4 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s10 ;
+	nm:physicalLink :s4 .
+:s10_s5 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s10 ;
+	nm:physicalLink :s5 .
+:s10_s6 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s10 ;
+	nm:physicalLink :s6 .
+
+:s11_s5 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s11 ;
+	nm:physicalLink :s5 .
+:s11_s6 rdf:type nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+	nm:physicalLink :s11 ;
+	nm:physicalLink :s6 .
+

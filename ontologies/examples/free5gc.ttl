@@ -1,0 +1,285 @@
+@prefix : <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/5g/free5gc-example#> .
+@prefix im: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/intent/intent#> .
+@prefix nm: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pod: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/podman#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix linux: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/os/linux#> .
+@base <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/5g/free5gc-example#> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/5g/free5gc-example> rdf:type owl:Ontology ;
+                                                                                           owl:imports <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN> ,
+                                                                                                       <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network> ,
+                                                                                                       <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g> ,
+                                                                                                       rdf: ,
+                                                                                                       rdfs: ,
+                                                                                                       <http://www.w3.org/2002/07/owl> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE0
+:UE0 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 352977096835106 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE1
+:UE1 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 355346095229405 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE10
+:UE10 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 862414028472512 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE11
+:UE11 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 357783067028894 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE12
+:UE12 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 862535031380852 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE13
+:UE13 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 864213039232891 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE14
+:UE14 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 359231097644130 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE15
+:UE15 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+      <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 866440049328504 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE2
+:UE2 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 357466067713729 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE3
+:UE3 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 358957063122443 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE4
+:UE4 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 359467077510947 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE5
+:UE5 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 356557089738529 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE6
+:UE6 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 867993034482990 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE7
+:UE7 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 353667069217809 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE8
+:UE8 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 359794053650359 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#UE9
+:UE9 rdf:type owl:NamedIndividual ,
+              <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#UserEquipment> ;
+     <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#imei> 357218099269869 .
+
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb0
+:gNb0 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#gNodeB> .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb0_s1
+:gNb0_s1 rdf:type owl:NamedIndividual ,
+                  nm:Wire ;
+         nm:physicalLink :gNb0 ,
+                         <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#s1> ;
+         nm:bandwidth "1.0E10"^^xsd:double ;
+         nm:latency 1 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb1
+:gNb1 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#gNodeB> .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb1_s2
+:gNb1_s2 rdf:type owl:NamedIndividual ,
+                  nm:Wire ;
+         nm:physicalLink :gNb1 ,
+                         <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#s2> ;
+         nm:bandwidth "1.0E10"^^xsd:double ;
+         nm:latency 1 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb2
+:gNb2 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#gNodeB> .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb2_s9
+:gNb2_s4 rdf:type owl:NamedIndividual ,
+                  nm:Wire ;
+         nm:physicalLink :gNb2 ,
+                         <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#s4> ;
+         nm:bandwidth "1.0E10"^^xsd:double ;
+         nm:latency 1 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb3
+:gNb3 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#gNodeB> .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb3_s10
+:gNb3_s5 rdf:type owl:NamedIndividual ,
+                   nm:Wire ;
+          nm:physicalLink :gNb3 ,
+                          <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#s5> ;
+          nm:bandwidth "1.0E10"^^xsd:double ;
+          nm:latency 1 .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb4
+:gNb4 rdf:type owl:NamedIndividual ,
+               <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/5g#gNodeB> .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/5g/free5gc-example#gNb4_s6
+:gNb4_s6 rdf:type owl:NamedIndividual ,
+                   nm:Wire ;
+          nm:physicalLink :gNb4 ,
+                          <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/21CN#s6> ;
+          nm:bandwidth "1.0E10"^^xsd:double ;
+          nm:latency 1 .
+
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/live_network#Tiny
+:Tiny rdf:type owl:NamedIndividual ,
+               nm:PhysicalMachine .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/live_network#Tiny_Hypervisor
+:Tiny_Hypervisor rdf:type owl:NamedIndividual ,
+                   nm:Hypervisor ;
+          nm:isRunningOn :Tiny .
+
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/live_network#Tiny_NIC
+:Tiny_NIC rdf:type owl:NamedIndividual ,
+                   nm:WiredNetworkInterface ;
+          nm:isPhysicalInterfaceOf :Tiny .
+
+
+:Tiny_INTF_s4 rdf:type nm:Wire;
+				nm:bandwidth 1e+10 ;
+				nm:latency 1 ;
+				nm:physicalLink :Tiny_INTF ,
+				:s9 .
+
+###  http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/tmf_example/live_network#Tiny_br0
+:Tiny_br0 rdf:type owl:NamedIndividual , nm:LinuxBridge ;
+          nm:connected :Tiny_NIC ;
+          nm:existsOn :Tiny .
+
+:upf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:upf_VDU .
+
+:amf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :amf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:amf_VDU .
+
+:ausf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:ausf_VDU .
+		
+:chf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:chf_VDU .
+
+:udm0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:udm_VDU .
+
+:smf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:smf_VDU .
+
+:nssf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:nssf_VDU .
+
+:n3iwf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:n3iwf_VDU .
+
+:nrf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:nrf_VDU .
+
+:pcf0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:pcf_VDU .
+
+:udr0_VDU rdf:type owl:NamedIndividual , nm:VirtualMachine ;
+		nm:hasVirtualInterface :upf_VDU_INTF ;
+		nm:isRunningOn :Tiny_Hypervisor ;
+		nm:isInstanceOf service:udr_VDU .
+
+:upf0_VDU_INTF rdf:type owl:NamedIndividual , nm:TAPInterface .
+
+:upf0_VDU_INTF_Tiny_br0 rdf:type owl:NamedIndividual, nm:VETH ;
+			nm:virtualLink :upf_VDU_INTF, :Tiny_br0.
+
+# First Slice. Connect to VDUs. And then create and orchestrate overlay
+# network, owned by the slice?
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

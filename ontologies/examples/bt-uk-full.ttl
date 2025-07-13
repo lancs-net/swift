@@ -1,0 +1,6127 @@
+@prefix cn: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/core-network#> .
+@prefix nm: <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <http://wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://raw.githubusercontent.com/Guilvareux/ontologies/main/examples/infrastructure/core-network> a owl:Ontology ;
+    owl:imports <http://raw.githubusercontent.com/Guilvareux/ontologies/main/network/network> .
+
+cn:PM10_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM10_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM11_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM11_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM12_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM12_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM13_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM13_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM14_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM14_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM15_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM15_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM16_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM16_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM17_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM17_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM18_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM18_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM19_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM19_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM1_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM1_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM1_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM1_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM1_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM1_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM1_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM1_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM1_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK11,
+        cn:metroUK11 .
+
+cn:PM1_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK21,
+        cn:metroUK21 .
+
+cn:PM1_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK31,
+        cn:metroUK31 .
+
+cn:PM1_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK41,
+        cn:metroUK41 .
+
+cn:PM1_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK51,
+        cn:metroUK51 .
+
+cn:PM1_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK61,
+        cn:metroUK61 .
+
+cn:PM1_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK71,
+        cn:metroUK71 .
+
+cn:PM1_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK731,
+        cn:metroUK731 .
+
+cn:PM1_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK741,
+        cn:metroUK741 .
+
+cn:PM1_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK751,
+        cn:metroUK751 .
+
+cn:PM1_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK761,
+        cn:metroUK761 .
+
+cn:PM1_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK771,
+        cn:metroUK771 .
+
+cn:PM1_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK781,
+        cn:metroUK781 .
+
+cn:PM1_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK791,
+        cn:metroUK791 .
+
+cn:PM1_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM1_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM1_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM1_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM1_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM1_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM1_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM1_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM1_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM1_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM1_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM1_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM1_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM1_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM1_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM20_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM20_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM21_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM21_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM22_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM22_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM23_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM23_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM24_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM24_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM25_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM25_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM26_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM26_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM27_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM27_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM28_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM28_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM29_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM29_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM2_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM2_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM2_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM2_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM2_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM2_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM2_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM2_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM2_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK11,
+        cn:metroUK11 .
+
+cn:PM2_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK21,
+        cn:metroUK21 .
+
+cn:PM2_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK31,
+        cn:metroUK31 .
+
+cn:PM2_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK41,
+        cn:metroUK41 .
+
+cn:PM2_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK51,
+        cn:metroUK51 .
+
+cn:PM2_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK61,
+        cn:metroUK61 .
+
+cn:PM2_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK71,
+        cn:metroUK71 .
+
+cn:PM2_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK731,
+        cn:metroUK731 .
+
+cn:PM2_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK741,
+        cn:metroUK741 .
+
+cn:PM2_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK751,
+        cn:metroUK751 .
+
+cn:PM2_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK761,
+        cn:metroUK761 .
+
+cn:PM2_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK771,
+        cn:metroUK771 .
+
+cn:PM2_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK781,
+        cn:metroUK781 .
+
+cn:PM2_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK791,
+        cn:metroUK791 .
+
+cn:PM2_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM2_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM2_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM2_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM2_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM2_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM2_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM2_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM2_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM2_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM2_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM2_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM2_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM2_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM2_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM30_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM30_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM31_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM31_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM32_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM32_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM33_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM33_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM34_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM34_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM35_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM35_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM36_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM36_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM37_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM37_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM38_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM38_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM39_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM39_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM3_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM3_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM3_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM3_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM3_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM3_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM3_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM3_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM3_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK11,
+        cn:metroUK11 .
+
+cn:PM3_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK21,
+        cn:metroUK21 .
+
+cn:PM3_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK31,
+        cn:metroUK31 .
+
+cn:PM3_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK41,
+        cn:metroUK41 .
+
+cn:PM3_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK51,
+        cn:metroUK51 .
+
+cn:PM3_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK61,
+        cn:metroUK61 .
+
+cn:PM3_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK71,
+        cn:metroUK71 .
+
+cn:PM3_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK731,
+        cn:metroUK731 .
+
+cn:PM3_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK741,
+        cn:metroUK741 .
+
+cn:PM3_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK751,
+        cn:metroUK751 .
+
+cn:PM3_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK761,
+        cn:metroUK761 .
+
+cn:PM3_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK771,
+        cn:metroUK771 .
+
+cn:PM3_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK781,
+        cn:metroUK781 .
+
+cn:PM3_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK791,
+        cn:metroUK791 .
+
+cn:PM3_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM3_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM3_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM3_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM3_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM3_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM3_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM3_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM3_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM3_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM3_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM3_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM3_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM3_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM3_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM4_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM4_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM4_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM4_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM4_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM4_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM4_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM4_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM4_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK11,
+        cn:metroUK11 .
+
+cn:PM4_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK21,
+        cn:metroUK21 .
+
+cn:PM4_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK31,
+        cn:metroUK31 .
+
+cn:PM4_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK41,
+        cn:metroUK41 .
+
+cn:PM4_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK51,
+        cn:metroUK51 .
+
+cn:PM4_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK61,
+        cn:metroUK61 .
+
+cn:PM4_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK71,
+        cn:metroUK71 .
+
+cn:PM4_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK731,
+        cn:metroUK731 .
+
+cn:PM4_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK741,
+        cn:metroUK741 .
+
+cn:PM4_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK751,
+        cn:metroUK751 .
+
+cn:PM4_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK761,
+        cn:metroUK761 .
+
+cn:PM4_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK771,
+        cn:metroUK771 .
+
+cn:PM4_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK781,
+        cn:metroUK781 .
+
+cn:PM4_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK791,
+        cn:metroUK791 .
+
+cn:PM4_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM4_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM4_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM4_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM4_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM4_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM4_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM4_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM4_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM4_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM4_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM4_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM4_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM4_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM4_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM5_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM5_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM5_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM5_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM5_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM5_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM5_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM5_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM5_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK11,
+        cn:metroUK11 .
+
+cn:PM5_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK21,
+        cn:metroUK21 .
+
+cn:PM5_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK31,
+        cn:metroUK31 .
+
+cn:PM5_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK41,
+        cn:metroUK41 .
+
+cn:PM5_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK51,
+        cn:metroUK51 .
+
+cn:PM5_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK61,
+        cn:metroUK61 .
+
+cn:PM5_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK71,
+        cn:metroUK71 .
+
+cn:PM5_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK731,
+        cn:metroUK731 .
+
+cn:PM5_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK741,
+        cn:metroUK741 .
+
+cn:PM5_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK751,
+        cn:metroUK751 .
+
+cn:PM5_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK761,
+        cn:metroUK761 .
+
+cn:PM5_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK771,
+        cn:metroUK771 .
+
+cn:PM5_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK781,
+        cn:metroUK781 .
+
+cn:PM5_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK791,
+        cn:metroUK791 .
+
+cn:PM5_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM5_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM5_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM5_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM5_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM5_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM5_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM5_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM5_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM5_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM5_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM5_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM5_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM5_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM5_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM6_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM6_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM6_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM6_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM6_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM6_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM6_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM6_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM6_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK11,
+        cn:metroUK11 .
+
+cn:PM6_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK21,
+        cn:metroUK21 .
+
+cn:PM6_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK31,
+        cn:metroUK31 .
+
+cn:PM6_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK41,
+        cn:metroUK41 .
+
+cn:PM6_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK51,
+        cn:metroUK51 .
+
+cn:PM6_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK61,
+        cn:metroUK61 .
+
+cn:PM6_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK71,
+        cn:metroUK71 .
+
+cn:PM6_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK731,
+        cn:metroUK731 .
+
+cn:PM6_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK741,
+        cn:metroUK741 .
+
+cn:PM6_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK751,
+        cn:metroUK751 .
+
+cn:PM6_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK761,
+        cn:metroUK761 .
+
+cn:PM6_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK771,
+        cn:metroUK771 .
+
+cn:PM6_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK781,
+        cn:metroUK781 .
+
+cn:PM6_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK791,
+        cn:metroUK791 .
+
+cn:PM6_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM6_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM6_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM6_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM6_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM6_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM6_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM6_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM6_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM6_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM6_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM6_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM6_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM6_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM6_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM7_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM7_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM7_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM7_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM7_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM7_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM7_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM7_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM7_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK11,
+        cn:metroUK11 .
+
+cn:PM7_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK21,
+        cn:metroUK21 .
+
+cn:PM7_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK31,
+        cn:metroUK31 .
+
+cn:PM7_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK41,
+        cn:metroUK41 .
+
+cn:PM7_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK51,
+        cn:metroUK51 .
+
+cn:PM7_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK61,
+        cn:metroUK61 .
+
+cn:PM7_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK71,
+        cn:metroUK71 .
+
+cn:PM7_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK731,
+        cn:metroUK731 .
+
+cn:PM7_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK741,
+        cn:metroUK741 .
+
+cn:PM7_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK751,
+        cn:metroUK751 .
+
+cn:PM7_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK761,
+        cn:metroUK761 .
+
+cn:PM7_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK771,
+        cn:metroUK771 .
+
+cn:PM7_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK781,
+        cn:metroUK781 .
+
+cn:PM7_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK791,
+        cn:metroUK791 .
+
+cn:PM7_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM7_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM7_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM7_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM7_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM7_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM7_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM7_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM7_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM7_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM7_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM7_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM7_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM7_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM7_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM8_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM8_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM8_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM8_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM8_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM8_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM8_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM8_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM8_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK11,
+        cn:metroUK11 .
+
+cn:PM8_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK21,
+        cn:metroUK21 .
+
+cn:PM8_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK31,
+        cn:metroUK31 .
+
+cn:PM8_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK41,
+        cn:metroUK41 .
+
+cn:PM8_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK51,
+        cn:metroUK51 .
+
+cn:PM8_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK61,
+        cn:metroUK61 .
+
+cn:PM8_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK71,
+        cn:metroUK71 .
+
+cn:PM8_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK731,
+        cn:metroUK731 .
+
+cn:PM8_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK741,
+        cn:metroUK741 .
+
+cn:PM8_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK751,
+        cn:metroUK751 .
+
+cn:PM8_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK761,
+        cn:metroUK761 .
+
+cn:PM8_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK771,
+        cn:metroUK771 .
+
+cn:PM8_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK781,
+        cn:metroUK781 .
+
+cn:PM8_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK791,
+        cn:metroUK791 .
+
+cn:PM8_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM8_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM8_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM8_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM8_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM8_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM8_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM8_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM8_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM8_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM8_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM8_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM8_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM8_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM8_metroUK79991,
+        cn:metroUK79991 .
+
+cn:PM9_coreIRE1_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_coreIRE1,
+        cn:coreUK3 .
+
+cn:PM9_metroIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799931,
+        cn:metroIRE799931 .
+
+cn:PM9_metroIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799941,
+        cn:metroIRE799941 .
+
+cn:PM9_metroIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799951,
+        cn:metroIRE799951 .
+
+cn:PM9_metroIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799961,
+        cn:metroIRE799961 .
+
+cn:PM9_metroIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799971,
+        cn:metroIRE799971 .
+
+cn:PM9_metroIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799981,
+        cn:metroIRE799981 .
+
+cn:PM9_metroIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroIRE799991,
+        cn:metroIRE799991 .
+
+cn:PM9_metroUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK11,
+        cn:metroUK11 .
+
+cn:PM9_metroUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK21,
+        cn:metroUK21 .
+
+cn:PM9_metroUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK31,
+        cn:metroUK31 .
+
+cn:PM9_metroUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK41,
+        cn:metroUK41 .
+
+cn:PM9_metroUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK51,
+        cn:metroUK51 .
+
+cn:PM9_metroUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK61,
+        cn:metroUK61 .
+
+cn:PM9_metroUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK71,
+        cn:metroUK71 .
+
+cn:PM9_metroUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK731,
+        cn:metroUK731 .
+
+cn:PM9_metroUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK741,
+        cn:metroUK741 .
+
+cn:PM9_metroUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK751,
+        cn:metroUK751 .
+
+cn:PM9_metroUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK761,
+        cn:metroUK761 .
+
+cn:PM9_metroUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK771,
+        cn:metroUK771 .
+
+cn:PM9_metroUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK781,
+        cn:metroUK781 .
+
+cn:PM9_metroUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK791,
+        cn:metroUK791 .
+
+cn:PM9_metroUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7931,
+        cn:metroUK7931 .
+
+cn:PM9_metroUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7941,
+        cn:metroUK7941 .
+
+cn:PM9_metroUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7951,
+        cn:metroUK7951 .
+
+cn:PM9_metroUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7961,
+        cn:metroUK7961 .
+
+cn:PM9_metroUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7971,
+        cn:metroUK7971 .
+
+cn:PM9_metroUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7981,
+        cn:metroUK7981 .
+
+cn:PM9_metroUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK7991,
+        cn:metroUK7991 .
+
+cn:PM9_metroUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79931,
+        cn:metroUK79931 .
+
+cn:PM9_metroUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79941,
+        cn:metroUK79941 .
+
+cn:PM9_metroUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79951,
+        cn:metroUK79951 .
+
+cn:PM9_metroUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79961,
+        cn:metroUK79961 .
+
+cn:PM9_metroUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79971,
+        cn:metroUK79971 .
+
+cn:PM9_metroUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79981,
+        cn:metroUK79981 .
+
+cn:PM9_metroUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:PM9_metroUK79991,
+        cn:metroUK79991 .
+
+cn:coreUK1_coreIRE1 a nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:coreUK1 .
+
+cn:coreUK1_coreUK2 a nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:coreUK2 .
+
+cn:coreUK1_coreUK3 a nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:coreUK3 .
+
+cn:coreUK1_coreUK4 a nm:Wire ;
+    nm:bandwidth 1e+10 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:coreUK4 .
+
+cn:gnbIRE799931_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799931,
+        cn:metroIRE799931 .
+
+cn:gnbIRE799931_metroIRE799932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799931,
+        cn:metroIRE799932 .
+
+cn:gnbIRE799932_metroIRE799931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799932,
+        cn:metroIRE799931 .
+
+cn:gnbIRE799932_metroIRE799932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799932,
+        cn:metroIRE799932 .
+
+cn:gnbIRE799941_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799941,
+        cn:metroIRE799941 .
+
+cn:gnbIRE799941_metroIRE799942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799941,
+        cn:metroIRE799942 .
+
+cn:gnbIRE799942_metroIRE799941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799942,
+        cn:metroIRE799941 .
+
+cn:gnbIRE799942_metroIRE799942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799942,
+        cn:metroIRE799942 .
+
+cn:gnbIRE799951_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799951,
+        cn:metroIRE799951 .
+
+cn:gnbIRE799951_metroIRE799952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799951,
+        cn:metroIRE799952 .
+
+cn:gnbIRE799952_metroIRE799951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799952,
+        cn:metroIRE799951 .
+
+cn:gnbIRE799952_metroIRE799952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799952,
+        cn:metroIRE799952 .
+
+cn:gnbIRE799961_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799961,
+        cn:metroIRE799961 .
+
+cn:gnbIRE799961_metroIRE799962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799961,
+        cn:metroIRE799962 .
+
+cn:gnbIRE799962_metroIRE799961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799962,
+        cn:metroIRE799961 .
+
+cn:gnbIRE799962_metroIRE799962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799962,
+        cn:metroIRE799962 .
+
+cn:gnbIRE799971_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799971,
+        cn:metroIRE799971 .
+
+cn:gnbIRE799971_metroIRE799972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799971,
+        cn:metroIRE799972 .
+
+cn:gnbIRE799972_metroIRE799971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799972,
+        cn:metroIRE799971 .
+
+cn:gnbIRE799972_metroIRE799972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799972,
+        cn:metroIRE799972 .
+
+cn:gnbIRE799981_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799981,
+        cn:metroIRE799981 .
+
+cn:gnbIRE799981_metroIRE799982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799981,
+        cn:metroIRE799982 .
+
+cn:gnbIRE799982_metroIRE799981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799982,
+        cn:metroIRE799981 .
+
+cn:gnbIRE799982_metroIRE799982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799982,
+        cn:metroIRE799982 .
+
+cn:gnbIRE799991_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799991,
+        cn:metroIRE799991 .
+
+cn:gnbIRE799991_metroIRE799992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799991,
+        cn:metroIRE799992 .
+
+cn:gnbIRE799992_metroIRE799991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799992,
+        cn:metroIRE799991 .
+
+cn:gnbIRE799992_metroIRE799992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbIRE799992,
+        cn:metroIRE799992 .
+
+cn:gnbUK11_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK11,
+        cn:metroUK11 .
+
+cn:gnbUK11_metroUK12 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK11,
+        cn:metroUK12 .
+
+cn:gnbUK12_metroUK11 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK12,
+        cn:metroUK11 .
+
+cn:gnbUK12_metroUK12 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK12,
+        cn:metroUK12 .
+
+cn:gnbUK21_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK21,
+        cn:metroUK21 .
+
+cn:gnbUK21_metroUK22 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK21,
+        cn:metroUK22 .
+
+cn:gnbUK22_metroUK21 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK22,
+        cn:metroUK21 .
+
+cn:gnbUK22_metroUK22 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK22,
+        cn:metroUK22 .
+
+cn:gnbUK31_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK31,
+        cn:metroUK31 .
+
+cn:gnbUK31_metroUK32 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK31,
+        cn:metroUK32 .
+
+cn:gnbUK32_metroUK31 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK32,
+        cn:metroUK31 .
+
+cn:gnbUK32_metroUK32 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK32,
+        cn:metroUK32 .
+
+cn:gnbUK41_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK41,
+        cn:metroUK41 .
+
+cn:gnbUK41_metroUK42 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK41,
+        cn:metroUK42 .
+
+cn:gnbUK42_metroUK41 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK42,
+        cn:metroUK41 .
+
+cn:gnbUK42_metroUK42 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK42,
+        cn:metroUK42 .
+
+cn:gnbUK51_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK51,
+        cn:metroUK51 .
+
+cn:gnbUK51_metroUK52 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK51,
+        cn:metroUK52 .
+
+cn:gnbUK52_metroUK51 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK52,
+        cn:metroUK51 .
+
+cn:gnbUK52_metroUK52 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK52,
+        cn:metroUK52 .
+
+cn:gnbUK61_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK61,
+        cn:metroUK61 .
+
+cn:gnbUK61_metroUK62 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK61,
+        cn:metroUK62 .
+
+cn:gnbUK62_metroUK61 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK62,
+        cn:metroUK61 .
+
+cn:gnbUK62_metroUK62 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK62,
+        cn:metroUK62 .
+
+cn:gnbUK71_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK71,
+        cn:metroUK71 .
+
+cn:gnbUK71_metroUK72 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK71,
+        cn:metroUK72 .
+
+cn:gnbUK72_metroUK71 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK72,
+        cn:metroUK71 .
+
+cn:gnbUK72_metroUK72 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK72,
+        cn:metroUK72 .
+
+cn:gnbUK731_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK731,
+        cn:metroUK731 .
+
+cn:gnbUK731_metroUK732 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK731,
+        cn:metroUK732 .
+
+cn:gnbUK732_metroUK731 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK732,
+        cn:metroUK731 .
+
+cn:gnbUK732_metroUK732 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK732,
+        cn:metroUK732 .
+
+cn:gnbUK741_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK741,
+        cn:metroUK741 .
+
+cn:gnbUK741_metroUK742 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK741,
+        cn:metroUK742 .
+
+cn:gnbUK742_metroUK741 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK742,
+        cn:metroUK741 .
+
+cn:gnbUK742_metroUK742 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK742,
+        cn:metroUK742 .
+
+cn:gnbUK751_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK751,
+        cn:metroUK751 .
+
+cn:gnbUK751_metroUK752 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK751,
+        cn:metroUK752 .
+
+cn:gnbUK752_metroUK751 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK752,
+        cn:metroUK751 .
+
+cn:gnbUK752_metroUK752 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK752,
+        cn:metroUK752 .
+
+cn:gnbUK761_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK761,
+        cn:metroUK761 .
+
+cn:gnbUK761_metroUK762 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK761,
+        cn:metroUK762 .
+
+cn:gnbUK762_metroUK761 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK762,
+        cn:metroUK761 .
+
+cn:gnbUK762_metroUK762 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK762,
+        cn:metroUK762 .
+
+cn:gnbUK771_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK771,
+        cn:metroUK771 .
+
+cn:gnbUK771_metroUK772 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK771,
+        cn:metroUK772 .
+
+cn:gnbUK772_metroUK771 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK772,
+        cn:metroUK771 .
+
+cn:gnbUK772_metroUK772 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK772,
+        cn:metroUK772 .
+
+cn:gnbUK781_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK781,
+        cn:metroUK781 .
+
+cn:gnbUK781_metroUK782 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK781,
+        cn:metroUK782 .
+
+cn:gnbUK782_metroUK781 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK782,
+        cn:metroUK781 .
+
+cn:gnbUK782_metroUK782 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK782,
+        cn:metroUK782 .
+
+cn:gnbUK791_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK791,
+        cn:metroUK791 .
+
+cn:gnbUK791_metroUK792 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK791,
+        cn:metroUK792 .
+
+cn:gnbUK792_metroUK791 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK792,
+        cn:metroUK791 .
+
+cn:gnbUK792_metroUK792 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK792,
+        cn:metroUK792 .
+
+cn:gnbUK7931_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7931,
+        cn:metroUK7931 .
+
+cn:gnbUK7931_metroUK7932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7931,
+        cn:metroUK7932 .
+
+cn:gnbUK7932_metroUK7931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7932,
+        cn:metroUK7931 .
+
+cn:gnbUK7932_metroUK7932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7932,
+        cn:metroUK7932 .
+
+cn:gnbUK7941_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7941,
+        cn:metroUK7941 .
+
+cn:gnbUK7941_metroUK7942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7941,
+        cn:metroUK7942 .
+
+cn:gnbUK7942_metroUK7941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7942,
+        cn:metroUK7941 .
+
+cn:gnbUK7942_metroUK7942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7942,
+        cn:metroUK7942 .
+
+cn:gnbUK7951_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7951,
+        cn:metroUK7951 .
+
+cn:gnbUK7951_metroUK7952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7951,
+        cn:metroUK7952 .
+
+cn:gnbUK7952_metroUK7951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7952,
+        cn:metroUK7951 .
+
+cn:gnbUK7952_metroUK7952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7952,
+        cn:metroUK7952 .
+
+cn:gnbUK7961_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7961,
+        cn:metroUK7961 .
+
+cn:gnbUK7961_metroUK7962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7961,
+        cn:metroUK7962 .
+
+cn:gnbUK7962_metroUK7961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7962,
+        cn:metroUK7961 .
+
+cn:gnbUK7962_metroUK7962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7962,
+        cn:metroUK7962 .
+
+cn:gnbUK7971_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7971,
+        cn:metroUK7971 .
+
+cn:gnbUK7971_metroUK7972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7971,
+        cn:metroUK7972 .
+
+cn:gnbUK7972_metroUK7971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7972,
+        cn:metroUK7971 .
+
+cn:gnbUK7972_metroUK7972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7972,
+        cn:metroUK7972 .
+
+cn:gnbUK7981_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7981,
+        cn:metroUK7981 .
+
+cn:gnbUK7981_metroUK7982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7981,
+        cn:metroUK7982 .
+
+cn:gnbUK7982_metroUK7981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7982,
+        cn:metroUK7981 .
+
+cn:gnbUK7982_metroUK7982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7982,
+        cn:metroUK7982 .
+
+cn:gnbUK7991_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7991,
+        cn:metroUK7991 .
+
+cn:gnbUK7991_metroUK7992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7991,
+        cn:metroUK7992 .
+
+cn:gnbUK7992_metroUK7991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7992,
+        cn:metroUK7991 .
+
+cn:gnbUK7992_metroUK7992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK7992,
+        cn:metroUK7992 .
+
+cn:gnbUK79931_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79931,
+        cn:metroUK79931 .
+
+cn:gnbUK79931_metroUK79932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79931,
+        cn:metroUK79932 .
+
+cn:gnbUK79932_metroUK79931 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79932,
+        cn:metroUK79931 .
+
+cn:gnbUK79932_metroUK79932 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79932,
+        cn:metroUK79932 .
+
+cn:gnbUK79941_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79941,
+        cn:metroUK79941 .
+
+cn:gnbUK79941_metroUK79942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79941,
+        cn:metroUK79942 .
+
+cn:gnbUK79942_metroUK79941 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79942,
+        cn:metroUK79941 .
+
+cn:gnbUK79942_metroUK79942 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79942,
+        cn:metroUK79942 .
+
+cn:gnbUK79951_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79951,
+        cn:metroUK79951 .
+
+cn:gnbUK79951_metroUK79952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79951,
+        cn:metroUK79952 .
+
+cn:gnbUK79952_metroUK79951 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79952,
+        cn:metroUK79951 .
+
+cn:gnbUK79952_metroUK79952 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79952,
+        cn:metroUK79952 .
+
+cn:gnbUK79961_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79961,
+        cn:metroUK79961 .
+
+cn:gnbUK79961_metroUK79962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79961,
+        cn:metroUK79962 .
+
+cn:gnbUK79962_metroUK79961 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79962,
+        cn:metroUK79961 .
+
+cn:gnbUK79962_metroUK79962 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79962,
+        cn:metroUK79962 .
+
+cn:gnbUK79971_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79971,
+        cn:metroUK79971 .
+
+cn:gnbUK79971_metroUK79972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79971,
+        cn:metroUK79972 .
+
+cn:gnbUK79972_metroUK79971 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79972,
+        cn:metroUK79971 .
+
+cn:gnbUK79972_metroUK79972 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79972,
+        cn:metroUK79972 .
+
+cn:gnbUK79981_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79981,
+        cn:metroUK79981 .
+
+cn:gnbUK79981_metroUK79982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79981,
+        cn:metroUK79982 .
+
+cn:gnbUK79982_metroUK79981 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79982,
+        cn:metroUK79981 .
+
+cn:gnbUK79982_metroUK79982 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79982,
+        cn:metroUK79982 .
+
+cn:gnbUK79991_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79991,
+        cn:metroUK79991 .
+
+cn:gnbUK79991_metroUK79992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79991,
+        cn:metroUK79992 .
+
+cn:gnbUK79992_metroUK79991 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79992,
+        cn:metroUK79991 .
+
+cn:gnbUK79992_metroUK79992 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:gnbUK79992,
+        cn:metroUK79992 .
+
+cn:metroIRE799931_metroIRE79993 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79993,
+        cn:metroIRE799931 .
+
+cn:metroIRE799932_metroIRE79993 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79993,
+        cn:metroIRE799932 .
+
+cn:metroIRE79993_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79993 .
+
+cn:metroIRE799941_metroIRE79994 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79994,
+        cn:metroIRE799941 .
+
+cn:metroIRE799942_metroIRE79994 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79994,
+        cn:metroIRE799942 .
+
+cn:metroIRE79994_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79994 .
+
+cn:metroIRE799951_metroIRE79995 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79995,
+        cn:metroIRE799951 .
+
+cn:metroIRE799952_metroIRE79995 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79995,
+        cn:metroIRE799952 .
+
+cn:metroIRE79995_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79995 .
+
+cn:metroIRE799961_metroIRE79996 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79996,
+        cn:metroIRE799961 .
+
+cn:metroIRE799962_metroIRE79996 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79996,
+        cn:metroIRE799962 .
+
+cn:metroIRE79996_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79996 .
+
+cn:metroIRE799971_metroIRE79997 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79997,
+        cn:metroIRE799971 .
+
+cn:metroIRE799972_metroIRE79997 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79997,
+        cn:metroIRE799972 .
+
+cn:metroIRE79997_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79997 .
+
+cn:metroIRE799981_metroIRE79998 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79998,
+        cn:metroIRE799981 .
+
+cn:metroIRE799982_metroIRE79998 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79998,
+        cn:metroIRE799982 .
+
+cn:metroIRE79998_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79998 .
+
+cn:metroIRE799991_metroIRE79999 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79999,
+        cn:metroIRE799991 .
+
+cn:metroIRE799992_metroIRE79999 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroIRE79999,
+        cn:metroIRE799992 .
+
+cn:metroIRE79999_coreIRE1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreIRE1,
+        cn:metroIRE79999 .
+
+cn:metroUK11_metroUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK1,
+        cn:metroUK11 .
+
+cn:metroUK12_metroUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK1,
+        cn:metroUK12 .
+
+cn:metroUK1_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK1 .
+
+cn:metroUK21_metroUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK2,
+        cn:metroUK21 .
+
+cn:metroUK22_metroUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK2,
+        cn:metroUK22 .
+
+cn:metroUK2_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK2 .
+
+cn:metroUK31_metroUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK3,
+        cn:metroUK31 .
+
+cn:metroUK32_metroUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK3,
+        cn:metroUK32 .
+
+cn:metroUK3_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK3 .
+
+cn:metroUK41_metroUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK4,
+        cn:metroUK41 .
+
+cn:metroUK42_metroUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK4,
+        cn:metroUK42 .
+
+cn:metroUK4_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK4 .
+
+cn:metroUK51_metroUK5 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK5,
+        cn:metroUK51 .
+
+cn:metroUK52_metroUK5 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK5,
+        cn:metroUK52 .
+
+cn:metroUK5_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK5 .
+
+cn:metroUK61_metroUK6 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK6,
+        cn:metroUK61 .
+
+cn:metroUK62_metroUK6 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK6,
+        cn:metroUK62 .
+
+cn:metroUK6_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK6 .
+
+cn:metroUK71_metroUK7 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7,
+        cn:metroUK71 .
+
+cn:metroUK72_metroUK7 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7,
+        cn:metroUK72 .
+
+cn:metroUK731_metroUK73 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK73,
+        cn:metroUK731 .
+
+cn:metroUK732_metroUK73 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK73,
+        cn:metroUK732 .
+
+cn:metroUK73_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK73 .
+
+cn:metroUK741_metroUK74 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK74,
+        cn:metroUK741 .
+
+cn:metroUK742_metroUK74 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK74,
+        cn:metroUK742 .
+
+cn:metroUK74_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK74 .
+
+cn:metroUK751_metroUK75 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK75,
+        cn:metroUK751 .
+
+cn:metroUK752_metroUK75 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK75,
+        cn:metroUK752 .
+
+cn:metroUK75_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK75 .
+
+cn:metroUK761_metroUK76 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK76,
+        cn:metroUK761 .
+
+cn:metroUK762_metroUK76 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK76,
+        cn:metroUK762 .
+
+cn:metroUK76_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK76 .
+
+cn:metroUK771_metroUK77 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK77,
+        cn:metroUK771 .
+
+cn:metroUK772_metroUK77 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK77,
+        cn:metroUK772 .
+
+cn:metroUK77_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK77 .
+
+cn:metroUK781_metroUK78 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK78,
+        cn:metroUK781 .
+
+cn:metroUK782_metroUK78 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK78,
+        cn:metroUK782 .
+
+cn:metroUK78_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK78 .
+
+cn:metroUK791_metroUK79 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK79,
+        cn:metroUK791 .
+
+cn:metroUK792_metroUK79 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK79,
+        cn:metroUK792 .
+
+cn:metroUK7931_metroUK793 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK793,
+        cn:metroUK7931 .
+
+cn:metroUK7932_metroUK793 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK793,
+        cn:metroUK7932 .
+
+cn:metroUK793_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK793 .
+
+cn:metroUK7941_metroUK794 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK794,
+        cn:metroUK7941 .
+
+cn:metroUK7942_metroUK794 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK794,
+        cn:metroUK7942 .
+
+cn:metroUK794_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK794 .
+
+cn:metroUK7951_metroUK795 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK795,
+        cn:metroUK7951 .
+
+cn:metroUK7952_metroUK795 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK795,
+        cn:metroUK7952 .
+
+cn:metroUK795_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK795 .
+
+cn:metroUK7961_metroUK796 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK796,
+        cn:metroUK7961 .
+
+cn:metroUK7962_metroUK796 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK796,
+        cn:metroUK7962 .
+
+cn:metroUK796_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK796 .
+
+cn:metroUK7971_metroUK797 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK797,
+        cn:metroUK7971 .
+
+cn:metroUK7972_metroUK797 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK797,
+        cn:metroUK7972 .
+
+cn:metroUK797_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK797 .
+
+cn:metroUK7981_metroUK798 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK798,
+        cn:metroUK7981 .
+
+cn:metroUK7982_metroUK798 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK798,
+        cn:metroUK7982 .
+
+cn:metroUK798_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK798 .
+
+cn:metroUK7991_metroUK799 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK799,
+        cn:metroUK7991 .
+
+cn:metroUK7992_metroUK799 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK799,
+        cn:metroUK7992 .
+
+cn:metroUK79931_metroUK7993 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7993,
+        cn:metroUK79931 .
+
+cn:metroUK79932_metroUK7993 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7993,
+        cn:metroUK79932 .
+
+cn:metroUK7993_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7993 .
+
+cn:metroUK79941_metroUK7994 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7994,
+        cn:metroUK79941 .
+
+cn:metroUK79942_metroUK7994 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7994,
+        cn:metroUK79942 .
+
+cn:metroUK7994_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7994 .
+
+cn:metroUK79951_metroUK7995 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7995,
+        cn:metroUK79951 .
+
+cn:metroUK79952_metroUK7995 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7995,
+        cn:metroUK79952 .
+
+cn:metroUK7995_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7995 .
+
+cn:metroUK79961_metroUK7996 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7996,
+        cn:metroUK79961 .
+
+cn:metroUK79962_metroUK7996 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7996,
+        cn:metroUK79962 .
+
+cn:metroUK7996_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7996 .
+
+cn:metroUK79971_metroUK7997 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7997,
+        cn:metroUK79971 .
+
+cn:metroUK79972_metroUK7997 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7997,
+        cn:metroUK79972 .
+
+cn:metroUK7997_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7997 .
+
+cn:metroUK79981_metroUK7998 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7998,
+        cn:metroUK79981 .
+
+cn:metroUK79982_metroUK7998 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7998,
+        cn:metroUK79982 .
+
+cn:metroUK7998_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7998 .
+
+cn:metroUK79991_metroUK7999 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7999,
+        cn:metroUK79991 .
+
+cn:metroUK79992_metroUK7999 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:metroUK7999,
+        cn:metroUK79992 .
+
+cn:metroUK7999_coreUK2 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK2,
+        cn:metroUK7999 .
+
+cn:metroUK799_coreUK4 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK4,
+        cn:metroUK799 .
+
+cn:metroUK79_coreUK3 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK3,
+        cn:metroUK79 .
+
+cn:metroUK7_coreUK1 a nm:Wire ;
+    nm:bandwidth 10000000000 ;
+    nm:latency 1 ;
+    nm:physicalLink cn:coreUK1,
+        cn:metroUK7 .
+
+cn:PM10_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM11_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM12_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM13_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM14_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM15_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM16_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM17_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM18_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM19_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM1_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM20_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM21_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM22_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM23_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM24_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM25_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM26_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM27_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM28_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM29_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM2_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM30_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM31_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM32_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM33_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM34_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM35_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM36_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM37_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM38_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM39_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM3_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM4_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM5_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM6_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM7_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM8_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_coreIRE1 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroIRE799991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK11 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK21 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK31 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK41 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK51 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK61 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK71 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK731 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK741 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK751 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK761 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK771 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK781 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK791 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK7991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79931 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79941 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79951 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79961 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79971 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79981 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:PM9_metroUK79991 a nm:PhysicalMachine ;
+    nm:cpuUtilization 0 ;
+    nm:memoryResource 1.350742e+11 ;
+    nm:storageResource 1.350742e+11 ;
+    nm:vcpuResource 20 .
+
+cn:gnbIRE799931 a nm:gNodeB .
+
+cn:gnbIRE799932 a nm:gNodeB .
+
+cn:gnbIRE799941 a nm:gNodeB .
+
+cn:gnbIRE799942 a nm:gNodeB .
+
+cn:gnbIRE799951 a nm:gNodeB .
+
+cn:gnbIRE799952 a nm:gNodeB .
+
+cn:gnbIRE799961 a nm:gNodeB .
+
+cn:gnbIRE799962 a nm:gNodeB .
+
+cn:gnbIRE799971 a nm:gNodeB .
+
+cn:gnbIRE799972 a nm:gNodeB .
+
+cn:gnbIRE799981 a nm:gNodeB .
+
+cn:gnbIRE799982 a nm:gNodeB .
+
+cn:gnbIRE799991 a nm:gNodeB .
+
+cn:gnbIRE799992 a nm:gNodeB .
+
+cn:gnbUK11 a nm:gNodeB .
+
+cn:gnbUK12 a nm:gNodeB .
+
+cn:gnbUK21 a nm:gNodeB .
+
+cn:gnbUK22 a nm:gNodeB .
+
+cn:gnbUK31 a nm:gNodeB .
+
+cn:gnbUK32 a nm:gNodeB .
+
+cn:gnbUK41 a nm:gNodeB .
+
+cn:gnbUK42 a nm:gNodeB .
+
+cn:gnbUK51 a nm:gNodeB .
+
+cn:gnbUK52 a nm:gNodeB .
+
+cn:gnbUK61 a nm:gNodeB .
+
+cn:gnbUK62 a nm:gNodeB .
+
+cn:gnbUK71 a nm:gNodeB .
+
+cn:gnbUK72 a nm:gNodeB .
+
+cn:gnbUK731 a nm:gNodeB .
+
+cn:gnbUK732 a nm:gNodeB .
+
+cn:gnbUK741 a nm:gNodeB .
+
+cn:gnbUK742 a nm:gNodeB .
+
+cn:gnbUK751 a nm:gNodeB .
+
+cn:gnbUK752 a nm:gNodeB .
+
+cn:gnbUK761 a nm:gNodeB .
+
+cn:gnbUK762 a nm:gNodeB .
+
+cn:gnbUK771 a nm:gNodeB .
+
+cn:gnbUK772 a nm:gNodeB .
+
+cn:gnbUK781 a nm:gNodeB .
+
+cn:gnbUK782 a nm:gNodeB .
+
+cn:gnbUK791 a nm:gNodeB .
+
+cn:gnbUK792 a nm:gNodeB .
+
+cn:gnbUK7931 a nm:gNodeB .
+
+cn:gnbUK7932 a nm:gNodeB .
+
+cn:gnbUK7941 a nm:gNodeB .
+
+cn:gnbUK7942 a nm:gNodeB .
+
+cn:gnbUK7951 a nm:gNodeB .
+
+cn:gnbUK7952 a nm:gNodeB .
+
+cn:gnbUK7961 a nm:gNodeB .
+
+cn:gnbUK7962 a nm:gNodeB .
+
+cn:gnbUK7971 a nm:gNodeB .
+
+cn:gnbUK7972 a nm:gNodeB .
+
+cn:gnbUK7981 a nm:gNodeB .
+
+cn:gnbUK7982 a nm:gNodeB .
+
+cn:gnbUK7991 a nm:gNodeB .
+
+cn:gnbUK7992 a nm:gNodeB .
+
+cn:gnbUK79931 a nm:gNodeB .
+
+cn:gnbUK79932 a nm:gNodeB .
+
+cn:gnbUK79941 a nm:gNodeB .
+
+cn:gnbUK79942 a nm:gNodeB .
+
+cn:gnbUK79951 a nm:gNodeB .
+
+cn:gnbUK79952 a nm:gNodeB .
+
+cn:gnbUK79961 a nm:gNodeB .
+
+cn:gnbUK79962 a nm:gNodeB .
+
+cn:gnbUK79971 a nm:gNodeB .
+
+cn:gnbUK79972 a nm:gNodeB .
+
+cn:gnbUK79981 a nm:gNodeB .
+
+cn:gnbUK79982 a nm:gNodeB .
+
+cn:gnbUK79991 a nm:gNodeB .
+
+cn:gnbUK79992 a nm:gNodeB .
+
+cn:metroIRE79993 a nm:MetroSwitch .
+
+cn:metroIRE799932 a nm:MetroSwitch .
+
+cn:metroIRE79994 a nm:MetroSwitch .
+
+cn:metroIRE799942 a nm:MetroSwitch .
+
+cn:metroIRE79995 a nm:MetroSwitch .
+
+cn:metroIRE799952 a nm:MetroSwitch .
+
+cn:metroIRE79996 a nm:MetroSwitch .
+
+cn:metroIRE799962 a nm:MetroSwitch .
+
+cn:metroIRE79997 a nm:MetroSwitch .
+
+cn:metroIRE799972 a nm:MetroSwitch .
+
+cn:metroIRE79998 a nm:MetroSwitch .
+
+cn:metroIRE799982 a nm:MetroSwitch .
+
+cn:metroIRE79999 a nm:MetroSwitch .
+
+cn:metroIRE799992 a nm:MetroSwitch .
+
+cn:metroUK1 a nm:MetroSwitch .
+
+cn:metroUK12 a nm:MetroSwitch .
+
+cn:metroUK2 a nm:MetroSwitch .
+
+cn:metroUK22 a nm:MetroSwitch .
+
+cn:metroUK3 a nm:MetroSwitch .
+
+cn:metroUK32 a nm:MetroSwitch .
+
+cn:metroUK4 a nm:MetroSwitch .
+
+cn:metroUK42 a nm:MetroSwitch .
+
+cn:metroUK5 a nm:MetroSwitch .
+
+cn:metroUK52 a nm:MetroSwitch .
+
+cn:metroUK6 a nm:MetroSwitch .
+
+cn:metroUK62 a nm:MetroSwitch .
+
+cn:metroUK7 a nm:MetroSwitch .
+
+cn:metroUK72 a nm:MetroSwitch .
+
+cn:metroUK73 a nm:MetroSwitch .
+
+cn:metroUK732 a nm:MetroSwitch .
+
+cn:metroUK74 a nm:MetroSwitch .
+
+cn:metroUK742 a nm:MetroSwitch .
+
+cn:metroUK75 a nm:MetroSwitch .
+
+cn:metroUK752 a nm:MetroSwitch .
+
+cn:metroUK76 a nm:MetroSwitch .
+
+cn:metroUK762 a nm:MetroSwitch .
+
+cn:metroUK77 a nm:MetroSwitch .
+
+cn:metroUK772 a nm:MetroSwitch .
+
+cn:metroUK78 a nm:MetroSwitch .
+
+cn:metroUK782 a nm:MetroSwitch .
+
+cn:metroUK79 a nm:MetroSwitch .
+
+cn:metroUK792 a nm:MetroSwitch .
+
+cn:metroUK793 a nm:MetroSwitch .
+
+cn:metroUK7932 a nm:MetroSwitch .
+
+cn:metroUK794 a nm:MetroSwitch .
+
+cn:metroUK7942 a nm:MetroSwitch .
+
+cn:metroUK795 a nm:MetroSwitch .
+
+cn:metroUK7952 a nm:MetroSwitch .
+
+cn:metroUK796 a nm:MetroSwitch .
+
+cn:metroUK7962 a nm:MetroSwitch .
+
+cn:metroUK797 a nm:MetroSwitch .
+
+cn:metroUK7972 a nm:MetroSwitch .
+
+cn:metroUK798 a nm:MetroSwitch .
+
+cn:metroUK7982 a nm:MetroSwitch .
+
+cn:metroUK799 a nm:MetroSwitch .
+
+cn:metroUK7992 a nm:MetroSwitch .
+
+cn:metroUK7993 a nm:MetroSwitch .
+
+cn:metroUK79932 a nm:MetroSwitch .
+
+cn:metroUK7994 a nm:MetroSwitch .
+
+cn:metroUK79942 a nm:MetroSwitch .
+
+cn:metroUK7995 a nm:MetroSwitch .
+
+cn:metroUK79952 a nm:MetroSwitch .
+
+cn:metroUK7996 a nm:MetroSwitch .
+
+cn:metroUK79962 a nm:MetroSwitch .
+
+cn:metroUK7997 a nm:MetroSwitch .
+
+cn:metroUK79972 a nm:MetroSwitch .
+
+cn:metroUK7998 a nm:MetroSwitch .
+
+cn:metroUK79982 a nm:MetroSwitch .
+
+cn:metroUK7999 a nm:MetroSwitch .
+
+cn:metroUK79992 a nm:MetroSwitch .
+
+cn:coreIRE1 a nm:CoreSwitch ;
+    nm:country wd:Q27 ;
+    nm:deviceLocation wd:Q1761 ;
+    rdf:label "Dublin" .
+
+cn:coreUK2 a nm:CoreSwitch ;
+    nm:country wd:Q145 ;
+    nm:deviceLocation wd:Q84 ;
+    rdf:label "London" .
+
+cn:coreUK4 a nm:CoreSwitch ;
+    nm:country wd:Q145 ;
+    nm:deviceLocation wd:Q3784287 ;
+    rdf:label "Madley" .
+
+cn:coreUK1 a nm:CoreSwitch ;
+    nm:country wd:Q145 ;
+    nm:deviceLocation wd:Q84 ;
+    rdf:label "London" .
+
+cn:metroIRE799931 a nm:MetroSwitch .
+
+cn:metroIRE799941 a nm:MetroSwitch .
+
+cn:metroIRE799951 a nm:MetroSwitch .
+
+cn:metroIRE799961 a nm:MetroSwitch .
+
+cn:metroIRE799971 a nm:MetroSwitch .
+
+cn:metroIRE799981 a nm:MetroSwitch .
+
+cn:metroIRE799991 a nm:MetroSwitch .
+
+cn:metroUK11 a nm:MetroSwitch .
+
+cn:metroUK21 a nm:MetroSwitch .
+
+cn:metroUK31 a nm:MetroSwitch .
+
+cn:metroUK41 a nm:MetroSwitch .
+
+cn:metroUK51 a nm:MetroSwitch .
+
+cn:metroUK61 a nm:MetroSwitch .
+
+cn:metroUK71 a nm:MetroSwitch .
+
+cn:metroUK731 a nm:MetroSwitch .
+
+cn:metroUK741 a nm:MetroSwitch .
+
+cn:metroUK751 a nm:MetroSwitch .
+
+cn:metroUK761 a nm:MetroSwitch .
+
+cn:metroUK771 a nm:MetroSwitch .
+
+cn:metroUK781 a nm:MetroSwitch .
+
+cn:metroUK791 a nm:MetroSwitch .
+
+cn:metroUK7931 a nm:MetroSwitch .
+
+cn:metroUK7941 a nm:MetroSwitch .
+
+cn:metroUK7951 a nm:MetroSwitch .
+
+cn:metroUK7961 a nm:MetroSwitch .
+
+cn:metroUK7971 a nm:MetroSwitch .
+
+cn:metroUK7981 a nm:MetroSwitch .
+
+cn:metroUK7991 a nm:MetroSwitch .
+
+cn:metroUK79931 a nm:MetroSwitch .
+
+cn:metroUK79941 a nm:MetroSwitch .
+
+cn:metroUK79951 a nm:MetroSwitch .
+
+cn:metroUK79961 a nm:MetroSwitch .
+
+cn:metroUK79971 a nm:MetroSwitch .
+
+cn:metroUK79981 a nm:MetroSwitch .
+
+cn:metroUK79991 a nm:MetroSwitch .
+
+cn:coreUK3 a nm:CoreSwitch ;
+    nm:country wd:Q145 ;
+    nm:deviceLocation wd:Q5583988 ;
+    rdf:label "Goonhilly" .
+
